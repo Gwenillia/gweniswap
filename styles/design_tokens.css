@@ -1,0 +1,11 @@
+:root {
+  --gray24: #09080c;
+  --gray23: #131118;
+  --gray22: #1c1924;
+  --gray20: #2f2a4c;
+  --gray8: #a6a0bb;
+  --white: #ffffff;
+  --gradient5: linear-gradient(73.6deg, #85ffc4 2.11%, #5cc6ff 42.39%, #bc85ff 85.72%);
+
+  --gap: 16px;
+}
