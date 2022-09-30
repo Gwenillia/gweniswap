@@ -6,7 +6,7 @@ type Props = {
   description: string
 }
 
-const Head: React.FC<Props> = ({ title, description }) => (
+const GenericHead: React.FC<Props> = ({ title, description }) => (
   <NextHead>
     <title>{title}</title>
     <meta name='description' content={description} />
@@ -14,4 +14,4 @@ const Head: React.FC<Props> = ({ title, description }) => (
   </NextHead>
 )
 
-export default Head
+export default GenericHead
