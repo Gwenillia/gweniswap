@@ -1,6 +1,8 @@
 {
   "name": "gweniswap",
   "version": "0.1.0",
+  "description": "Ethereum swap",
+  "author": "gwenillia.eth",
   "private": true,
   "scripts": {
     "dev": "next dev",
