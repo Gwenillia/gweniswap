@@ -1,6 +1,6 @@
 import '../styles/globals.css'
 import '../styles/design_tokens.css'
-import '../styles/utilities.css'
+import '../styles/utilities/utilities.css'
 import type { AppProps } from 'next/app'
 import { Web3ContextProvider } from 'context/Web3Context'
 

@@ -22,3 +22,9 @@
   background-clip: text;
   text-fill-color: transparent;
 }
+.addressText {
+  max-width: 20rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
