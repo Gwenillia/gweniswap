@@ -1,0 +1,30 @@
+.lockup {
+  max-width: 90ch;
+  margin: 0 auto;
+}
+.secondaryBtn {
+  display: flex;
+  font-size: 1.4rem;
+  justify-content: center;
+  align-items: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  border-radius: 100px;
+  padding: .8rem 1.6rem;
+  background: var(--gray22);
+  border: none;
+  cursor: pointer;
+}
+.secondaryBtnText {
+  font-weight: 700;
+  background: var(--gradient5);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.addressText {
+  max-width: 20rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
